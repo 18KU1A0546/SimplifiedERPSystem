@@ -1,0 +1,76 @@
+.dashboard-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.dashboard-heading {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.dashboard-summary {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.metric {
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  width: 30%;
+  position: relative;
+  overflow: hidden;
+}
+
+.metric h2 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+}
+
+.metric p {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.metric-label {
+  font-size: 0.8rem;
+  color: #888;
+}
+
+.dashboard-actions {
+  display: flex;
+  justify-content: center;
+}
+
+.dashboard-action-button {
+  padding: 10px 20px;
+  margin: 0 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+}
+
+/* Unique animation */
+@keyframes scaleUp {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.metric:hover {
+  animation: scaleUp 0.5s ease;
+}
