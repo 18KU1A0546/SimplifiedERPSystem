@@ -16,17 +16,17 @@ Getting Stated
           • npm install 
 
 -> A javascript library for building user interface.
-      • npm install react react-dom
+      => npm install react react-dom
 -> Provides routing capabilities for react application.
-      •	npm install react-router-dom
+      => npm install react-router-dom
 -> Bootstrap components built with react
-      •	npm install react-bootstrap bootstrap
+      => npm install react-bootstrap bootstrap
 -> A customizable calendar componestnt for React
-      •	npm install react-calendar
+      => npm install react-calendar
 ->	a modern javascript date uility library
-      •	npm install date-fns
+      => npm install date-fns
 ->	Run the development server:
-      • npm start
+      => npm start
 ->	The Project should now be running locally on http://localhost:3000
 
 USAGE:
